@@ -12,21 +12,43 @@ body{
     color: white;
     font-size: 1em;
 }
-#minha-foto{
+.minha-foto{
     border-radius: 10%;
 }
-.foto{
+.heading{
     margin: auto;
-    display: inline-block;
+
     text-align: center;
 }
+
+#menu{
+    margin-top: 20px;
+}
+
+#menu li{
+    display: inline;
+    text-align: center;
+}
+
+#menu li a{
+    background-color: brown;
+    padding: 8px 10px;
+}
+
+#menu li a:hover{
+    color: burlywood;
+    padding-bottom: 12px;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
 .conteudo{
     width: 100%;
     float: left;
 }
 .descricao-foto{
     background-color: rgba(133, 31, 40, 0.8);
-    width: 82%;
+    width: 92%;
     border-radius: 20px;
     padding: 10px;
     margin-top: 20px;
@@ -36,7 +58,7 @@ body{
 
 .caixinha{
     background-color: rgba(83, 0, 0, 0.8);
-    width: 60%;
+    width: 65%;
     border-radius: 20px;
     padding: 10px;
     margin-top: 15px;
@@ -46,7 +68,7 @@ body{
 }
 .caixinha2{
     background-color: rgba(83, 0, 0, 0.8);
-    width: 20%;
+    width: 25%;
     border-radius: 20px;
     padding: 10px;
     margin-top: 15px;
@@ -57,7 +79,7 @@ body{
 .caixinha3{
     font-size: 1.2em;
     background-color: rgba(136, 66, 1, 0.9);
-    width: 40%;
+    width: 45%;
     border-radius: 20px;
     padding: 10px;
     margin-top: 15px;
@@ -68,7 +90,7 @@ body{
 .caixinha4{
     font-size: 1.2em;
     background-color: rgba(26, 48, 0, 0.9);
-    width: 40%;
+    width: 45%;
     border-radius: 20px;
     padding: 10px;
     margin-top: 15px;
@@ -102,12 +124,12 @@ li{
     position: absolute;
     
 }
-a{
+ a{
     text-decoration: none;
 
     color: white;
 }
-a:hover{
+.descricao-foto a:hover, .lista-link a:hover{
     color: black;
     background-color:rgb(143, 143, 155);
     border-radius: 50px;
