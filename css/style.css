@@ -1,0 +1,122 @@
+*{
+    margin: 4px;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(../img/fundo3.gif);
+    background-size: cover;
+    color: white;
+    font-size: 1em;
+}
+#minha-foto{
+    border-radius: 10%;
+}
+.foto{
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+}
+.conteudo{
+    width: 100%;
+    float: left;
+}
+.descricao-foto{
+    background-color: rgba(133, 31, 40, 0.8);
+    width: 82%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 20px;
+    clear: both;
+    min-width: 450px;
+}
+
+.caixinha{
+    background-color: rgba(83, 0, 0, 0.8);
+    width: 60%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    float: left;
+    height: 230px;
+    min-width: 540px;
+}
+.caixinha2{
+    background-color: rgba(83, 0, 0, 0.8);
+    width: 20%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    float: left;
+    height: 230px;
+    min-width: 150px;
+}
+.caixinha3{
+    font-size: 1.2em;
+    background-color: rgba(136, 66, 1, 0.9);
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    float: left;
+    height: 390px;
+    min-width: 450px;
+}
+.caixinha4{
+    font-size: 1.2em;
+    background-color: rgba(26, 48, 0, 0.9);
+    width: 40%;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px;
+    float: left;
+    height: 390px;
+    min-width: 450px;
+}
+
+h2{
+    margin-bottom: 15px;
+    text-align: center;
+}
+p{
+    padding-left: 20px;
+}
+ul{
+    margin: auto;
+    text-align: center;
+}
+
+li{
+    margin: auto;
+    text-align:center;
+    list-style: none;
+}
+.meio{
+    text-align: center;
+    vertical-align: middle;
+}
+#mario{
+    position: absolute;
+    
+}
+a{
+    text-decoration: none;
+
+    color: white;
+}
+a:hover{
+    color: black;
+    background-color:rgb(143, 143, 155);
+    border-radius: 50px;
+    padding: 5px;
+}
+
+.lista-link li{
+    padding: 25px;
+}
+.lista-gostos li{
+    padding: 7px;
+}
+.redondo{
+    border-radius: 8px;
+}
